@@ -6,10 +6,10 @@ import { remarkReadingTime } from './src/utils/remarkReadingTime.ts'
 import remarkUnwrapImages from 'remark-unwrap-images'
 import rehypeExternalLinks from 'rehype-external-links'
 import expressiveCode from 'astro-expressive-code'
-import { expressiveCodeOptions } from './src/site.config'
+import { expressiveCodeOptions } from './src/site.config.ts'
 import icon from 'astro-icon'
 
-import vercel from '@astrojs/vercel/serverless'
+import vercelServerless from '@astrojs/vercel/serverless'
 
 // https://astro.build/config
 export default defineConfig({
@@ -42,7 +42,8 @@ export default defineConfig({
 	},
 	prefetch: true,
 	output: 'server',
-	adapter: vercel({
-		webAnalytics: { enabled: true }
+	adapter: vercelServerless({
+		webAnalytics: { enabled: true },
+		maxDuration: 8,
 	})
 })
