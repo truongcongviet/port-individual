@@ -8,7 +8,7 @@ export const siteConfig: SiteConfig = {
 	title: 'Viet Truong Blog',
 	// Meta property used as the default description meta property
 	description: "Viet Truong 's personal website + blog ",
-	ogImage: '/src/assets/coming-soon.png',
+	ogImage: 'https://general-inventory.coin98.tech/images/ava-1200x1200_y1wuk4lu1vqqtlqr_1739889012168.jpeg',
 	// HTML lang property, found in src/layouts/Base.astro L:18
 	lang: 'en-GB',
 	// Meta property, found in src/components/BaseHead.astro L:42
