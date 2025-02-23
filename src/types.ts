@@ -5,7 +5,7 @@ export type SiteConfig = {
 	lang: string
 	ogLocale: string
 	articleDate: string
-	ogImage: string
+	ogImage?: string
 	date: {
 		locale: string | string[] | undefined
 		options: Intl.DateTimeFormatOptions
