@@ -1,6 +1,6 @@
 ---
 title: 'Solana MEV Report'
-ogImage: 'src/assets/sandwich_acttack.png'
+ogImage: 'https://i2.seadn.io/ethereum/0x8a90cab2b38dba80c64b7734e58ee1db38b8992e/2e73bb28d2bc794b8a84fb538cd50e9b.png'
 description: 'Solana MEV Report: Trends, Insights, and Challenges'
 publishDate: '22 Feb 2025'
 updatedDate: '22 Feb 2025'

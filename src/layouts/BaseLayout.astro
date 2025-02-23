@@ -13,7 +13,7 @@ interface Props {
 }
 
 const {
-	meta: { articleDate, description = siteConfig.description, ogImage = "https://general-inventory.coin98.tech/images/ava-1200x1200_y1wuk4lu1vqqtlqr_1739889012168.jpeg", title }
+	meta: { articleDate = siteConfig.articleDate , description = siteConfig.description, ogImage = siteConfig.ogImage, title }
 } = Astro.props
 console.log({ articleDate, description, ogImage, title })
 ---

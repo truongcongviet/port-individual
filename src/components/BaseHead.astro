@@ -7,14 +7,13 @@ import type { SiteMeta } from '@/types'
 import { siteConfig } from '@/site-config'
 
 type Props = SiteMeta
-
+console.log(Astro)
 const { articleDate, description, ogImage, title } = Astro.props
 
 const titleSeparator = '•'
 const siteTitle = `${title} ${titleSeparator} Viet-Truong-Blog`
 const canonicalURL = new URL(Astro.url.pathname, Astro.site)
 const socialImageURL = new URL(ogImage ? ogImage : '/src/assets/coin98.png', Astro.url).href
-console.log({ ogImage, Astro,socialImageURL, siteConfig })
 ---
 
 <meta charset='utf-8' />
@@ -50,6 +49,8 @@ console.log({ ogImage, Astro,socialImageURL, siteConfig })
 {/* Primary Meta Tags */}
 <meta content={siteTitle} name='title' />
 <meta content={description} name='description' />
+<meta content={ogImage} name='ogImage' />
+<meta content={articleDate} name='articleDate' />
 <meta content={siteConfig.author} name='author' />
 
 {/* Theme Colour */}

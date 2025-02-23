@@ -4,6 +4,7 @@ export type SiteConfig = {
 	description: string
 	lang: string
 	ogLocale: string
+	articleDate: string
 	ogImage: string
 	date: {
 		locale: string | string[] | undefined
@@ -20,6 +21,6 @@ export type PaginationLink = {
 export type SiteMeta = {
 	title: string
 	description?: string
-	ogImage?: string | undefined
-	articleDate?: string | undefined
+	ogImage?: string
+	articleDate?: string
 }
