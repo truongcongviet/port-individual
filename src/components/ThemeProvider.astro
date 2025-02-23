@@ -4,7 +4,6 @@
 	// Get user preference from local storage or from browser preference
 	function getUserPref() {
 		const storedTheme = localStorage.getItem('theme') ?? undefined
-		console.log({  storedTheme: localStorage.getItem('theme') })
 		return storedTheme || (lightModePref.matches ? 'light' : 'dark')
 	}
 

@@ -8,6 +8,7 @@ export const siteConfig: SiteConfig = {
 	title: 'Viet Truong Blog',
 	// Meta property used as the default description meta property
 	description: "Viet Truong 's personal website + blog ",
+	ogImage: '/src/assets/coming-soon.png',
 	// HTML lang property, found in src/layouts/Base.astro L:18
 	lang: 'en-GB',
 	// Meta property, found in src/components/BaseHead.astro L:42
@@ -38,12 +39,12 @@ export const menuLinks: Array<{ title: string; path: string }> = [
 export const expressiveCodeOptions: AstroExpressiveCodeOptions = {
 	// One dark, one light theme => https://expressive-code.com/guides/themes/#available-themes
 	themes: ['dracula', 'github-light'],
-	themeCssSelector(theme, { styleVariants }) {
+	themeCssSelector(theme: { type: any; name: any; }, { styleVariants }: any) {
 		// If one dark and one light theme are available
 		// generate theme CSS selectors compatible with cactus-theme dark mode switch
 		if (styleVariants.length >= 2) {
 			const baseTheme = styleVariants[0]?.theme
-			const altTheme = styleVariants.find((v) => v.theme.type !== baseTheme?.type)?.theme
+			const altTheme = styleVariants.find((v: { theme: { type: any; }; }) => v.theme.type !== baseTheme?.type)?.theme
 			if (theme === baseTheme || theme === altTheme) return `[data-theme='${theme.type}']`
 		}
 		// return default selector

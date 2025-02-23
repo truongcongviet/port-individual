@@ -15,6 +15,7 @@ interface Props {
 const {
 	meta: { articleDate, description = siteConfig.description, ogImage, title }
 } = Astro.props
+console.log({ articleDate, description, ogImage, title })
 ---
 
 <html lang={siteConfig.lang} class='font-mono text-[#20C20E]'>
