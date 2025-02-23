@@ -10,7 +10,7 @@ export const siteConfig: SiteConfig = {
 	description: "Viet Truong 's personal website + blog ",
 	articleDate: '2022-12-12',
 	// Meta property used as the default og:image meta property
-	ogImage: "https://general-inventory.coin98.tech/images/ava-1200x1200_y1wuk4lu1vqqtlqr_1739889012168.jpeg",
+	// ogImage: "https://general-inventory.coin98.tech/images/ava-1200x1200_y1wuk4lu1vqqtlqr_1739889012168.jpeg",
 	// HTML lang property, found in src/layouts/Base.astro L:18
 	lang: 'en-GB',
 	// Meta property, found in src/components/BaseHead.astro L:42
