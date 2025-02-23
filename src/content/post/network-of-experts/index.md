@@ -1,6 +1,6 @@
 ---
 title: 'Solana MEV Report'
-ogImage: 'https://general-inventory.coin98.tech/images/ava-1200x1200_y1wuk4lu1vqqtlqr_1739889012168.jpeg'
+ogImage: 'src/assets/sandwich_acttack.png'
 description: 'Solana MEV Report: Trends, Insights, and Challenges'
 publishDate: '22 Feb 2025'
 updatedDate: '22 Feb 2025'
