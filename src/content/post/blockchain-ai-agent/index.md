@@ -4,11 +4,10 @@ ogImage: 'https://i2.seadn.io/ethereum/0x8a90cab2b38dba80c64b7734e58ee1db38b8992
 description: 'The integration and synergy between artificial intelligence agents and Solana-based non-fungible tokens'
 publishDate: '01 Mar 2025'
 updatedDate: '01 Mar 2025'
-tags: ['web3', 'blockchain', 'solana', 'AI']
+tags: ['web3', 'blockchain', 'solana', 'ai_agent']
 draft: false
 ---
-
- 🌟 Bài viết này cung cấp cái nhìn tổng quan sinh động về AI agent, công nghệ blockchain. Và sự tích hợp đột phá giữa hai nền tảng tiên tiến này.
+ > 🌟 Bài viết này cung cấp cái nhìn tổng quan sinh động về AI agent, công nghệ blockchain. Và sự tích hợp đột phá giữa hai nền tảng tiên tiến này.
 
 ## 🌍 Giới thiệu
 
@@ -86,13 +85,7 @@ Sự kết hợp giữa AI agents và NFT collections không chỉ là xu hướ
 
 <style>
 img {
-    border-radius: 15px;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-}
-blockquote {
-    background: #f9f9f9;
-    border-left: 4px solid #007bff;
-    padding: 12px;
-    font-style: italic;
+    border-radius: 25px;
+    width: 100%;
 }
 </style>
