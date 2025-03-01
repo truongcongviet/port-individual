@@ -1,7 +1,7 @@
 ---
 title: '🤖🔒 Ứng dụng AI Agent vào Blockchain (NFTs & Tokens)'
 ogImage: 'https://i2.seadn.io/ethereum/0x8a90cab2b38dba80c64b7734e58ee1db38b8992e/2e73bb28d2bc794b8a84fb538cd50e9b.png'
-description: 'The combination of AI agents and Solana NFTs'
+description: 'The integration and synergy between artificial intelligence agents and Solana-based non-fungible tokens'
 publishDate: '01 Mar 2025'
 updatedDate: '01 Mar 2025'
 tags: ['web3', 'blockchain', 'solana', 'AI']
