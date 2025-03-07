@@ -7,7 +7,8 @@ updatedDate: '01 Mar 2025'
 tags: ['web3', 'blockchain', 'solana', 'ai_agent']
 draft: false
 ---
- > 🌟 Bài viết này cung cấp cái nhìn tổng quan sinh động về AI agent, công nghệ blockchain. Và sự tích hợp đột phá giữa hai nền tảng tiên tiến này.
+
+> 🌟 Bài viết này cung cấp cái nhìn tổng quan sinh động về AI agent, công nghệ blockchain. Và sự tích hợp đột phá giữa hai nền tảng tiên tiến này.
 
 ## 🌍 Giới thiệu
 
@@ -24,14 +25,17 @@ draft: false
 # 🤖 Tổng quan về AI Agents và những vấn đề liên quan
 
 ### 🤖 AI agent là gì?
+
 AI agent là **Smart AI Automation**, tự động thực hiện nhiệm vụ thay con người, dựa trên thuật toán AI. Tự động học hỏi, phân tích, quyết định và tương tác với môi trường, như chatbot, bot giao dịch, hay trợ lý ảo, nổi bật nhờ tính tự chủ và hiệu quả.
 
 ### ⛓️ Blockchain và NFTs là gì?
-- **Blockchain**: Công nghệ lưu trữ phân tán, lưu trữ dữ liệu trong các khối (block) liên kết, được mã hóa (by chain), đảm bảo tính phi tập trung, minh bạch và an toàn, thường dùng cho tiền điện tử và hợp đồng thông minh.  
+
+- **Blockchain**: Công nghệ lưu trữ phân tán, lưu trữ dữ liệu trong các khối (block) liên kết, được mã hóa (by chain), đảm bảo tính phi tập trung, minh bạch và an toàn, thường dùng cho tiền điện tử và hợp đồng thông minh.
 - **🖼️ NFTs (Non-Fungible Tokens)**: Tài sản số độc nhất trên blockchain, đại diện cho quyền sở hữu vật phẩm như nghệ thuật, âm nhạc, hay đồ trong game.  
-*"NFT giống như Mona Lisa - copy 99.99% vẫn chỉ là bản sao!"* 😄
+  _"NFT giống như Mona Lisa - copy 99.99% vẫn chỉ là bản sao!"_ 😄
 
 ---
+
 ![Ai agent Image](work-ai.png)
 
 ## ⚖️ Bài toán đặt ra
@@ -39,48 +43,59 @@ AI agent là **Smart AI Automation**, tự động thực hiện nhiệm vụ th
 **Nếu con người ngủ/ngưng hoạt động → Thị trường vẫn chạy**. AI Agent giúp tự động hóa giao dịch nhưng cần giải quyết:
 
 ### ✅ Điểm mạnh:
-1. **🛡️ Tự chủ (Autonomy)**: Hoạt động độc lập, không cần giám sát liên tục.  
-2. **⚡ Hiệu quả (Efficiency)**: Kết hợp data on-chain/off-chain để ra quyết định tối ưu.  
-3. **📚 Khả năng học hỏi (Adaptability)**: Cải thiện qua machine learning.  
+
+1. **🛡️ Tự chủ (Autonomy)**: Hoạt động độc lập, không cần giám sát liên tục.
+2. **⚡ Hiệu quả (Efficiency)**: Kết hợp data on-chain/off-chain để ra quyết định tối ưu.
+3. **📚 Khả năng học hỏi (Adaptability)**: Cải thiện qua machine learning.
 
 ### ❌ Điểm yếu:
-1. **📉 Phụ thuộc dữ liệu**: Hiệu quả giảm nếu data thiếu/sai.  
-2. **🎨 Thiếu sáng tạo**: Giới hạn trong lập trình.  
-3. **🔓 Rủi ro bảo mật**: Dễ bị tấn công nếu hệ thống không an toàn.  
+
+1. **📉 Phụ thuộc dữ liệu**: Hiệu quả giảm nếu data thiếu/sai.
+2. **🎨 Thiếu sáng tạo**: Giới hạn trong lập trình.
+3. **🔓 Rủi ro bảo mật**: Dễ bị tấn công nếu hệ thống không an toàn.
 
 ---
 
 ## 🔐 Security Challenge: Bảo vệ Ví Solana
-**Vấn đề**: AI Agent cần truy cập ví nhưng lưu **private key** trong code → Rủi ro bị hack!  
+
+**Vấn đề**: AI Agent cần truy cập ví nhưng lưu **private key** trong code → Rủi ro bị hack!
 
 ### 💥 Ví dụ thực tế:
-- **3M$ mất trắng** (Banana Gun 9/2024) do lỗi oracle tin nhắn Telegram.  
-- Bot có quyền ví → Giao dịch không mong muốn không thể đảo ngược.  
+
+- **3M$ mất trắng** (Banana Gun 9/2024) do lỗi oracle tin nhắn Telegram.
+- Bot có quyền ví → Giao dịch không mong muốn không thể đảo ngược.
 
 ---
 
 ## 🛠️ Giải pháp cân bằng Security & Autonomy
-[Turnkey](https://www.turnkey.com/) cung cấp kiến trúc 3 lớp: 
+
+[Turnkey](https://www.turnkey.com/) cung cấp kiến trúc 3 lớp:
+
 ### 1. 🔑 Khóa API Phân Quyền
-- Giới hạn phạm vi hoạt động của agent  
-- Định nghĩa chính sách chi tiết (ký giao dịch, tương tác hợp đồng...)  
+
+- Giới hạn phạm vi hoạt động của agent
+- Định nghĩa chính sách chi tiết (ký giao dịch, tương tác hợp đồng...)
 
 ### 2. 🛡️ Môi Trường Enclave (AWS Nitro)
-- Cách ly hoàn toàn với bên ngoài  
-- Không lưu trữ/mạng/khả năng sửa đổi  
+
+- Cách ly hoàn toàn với bên ngoài
+- Không lưu trữ/mạng/khả năng sửa đổi
 
 ### 3. ✅ Chứng Thực Công Khai
-- Cryptographic proof xác minh mã nguồn  
-- Reproducible builds đảm bảo tính toàn vẹn  
+
+- Cryptographic proof xác minh mã nguồn
+- Reproducible builds đảm bảo tính toàn vẹn
 
 ---
 
 ## 🚀 Tương Lai Phát Triển
-- **🤖 Agent tự chủ hoàn toàn**  
-- **🎮 Tích hợp GameFi/NFT**  
-- **🌐 Hệ sinh thái DAO phi tập trung**  
 
-## Kết luận: 
+- **🤖 Agent tự chủ hoàn toàn**
+- **🎮 Tích hợp GameFi/NFT**
+- **🌐 Hệ sinh thái DAO phi tập trung**
+
+## Kết luận:
+
 Sự kết hợp giữa AI agents và NFT collections không chỉ là xu hướng mà còn là một bước tiến quan trọng trong việc mở rộng tiềm năng của công nghệ số. Từ quản lý tự động đến sáng tạo nghệ thuật, AI đang định hình lại cách chúng ta tương tác với NFT, đồng thời tạo ra các cơ hội mới cho nghệ sĩ, nhà sưu tập và nhà đầu tư. Tuy nhiên, các tranh cãi về tính sáng tạo và bảo mật vẫn cần được giải quyết để đảm bảo sự phát triển bền vững.
 
 <style>

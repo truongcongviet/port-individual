@@ -15,9 +15,34 @@ import vietAvatar from '../assets/viet.jpg'
 import { getAllPosts, sortMDByDate } from '@/utils'
 
 const languages = ['TypeScript', 'JS', 'PHP', 'Solidity', 'Move', 'Golang']
-const frontend = ['React', 'NextJS', 'Astro', 'TailwindCSS', 'React Native', 'Web3', 'Ethers', 'Hardhat']
+const frontend = [
+	'React',
+	'NextJS',
+	'Astro',
+	'TailwindCSS',
+	'React Native',
+	'Web3',
+	'Ethers',
+	'Hardhat'
+]
 const backend = ['NodeJS', 'Express', 'Prisma', 'PostgreSQL', 'MongoDB', 'Docker', 'Kubernetes']
-const others = ['Technical Writing', 'Developer Relations', 'Public Speaking', 'AI', 'Blockchain', 'Web3', 'NFTs', 'Smart Contracts', 'EVM', 'SUI', 'SOLANA', 'Wallets', 'Dapps', 'NFT Collections', 'AI Integration']
+const others = [
+	'Technical Writing',
+	'Developer Relations',
+	'Public Speaking',
+	'AI',
+	'Blockchain',
+	'Web3',
+	'NFTs',
+	'Smart Contracts',
+	'EVM',
+	'SUI',
+	'SOLANA',
+	'Wallets',
+	'Dapps',
+	'NFT Collections',
+	'AI Integration'
+]
 
 const MAX_POSTS = 10
 const allPosts = await getAllPosts()
@@ -101,7 +126,10 @@ const allPostsByDate = sortMDByDate(allPosts).slice(0, MAX_POSTS)
 
 		<Section title='About'>
 			<p class='font-mono text-[#20C20E]'>
-				I am currently a software engineer, although I graduated with a degree in agricultural engineering. I'm researching and working in the fields of crypto, Web3, and blockchain. I enjoy solo traveling to explore new things. Here, you can find my articles about technology as well as my personal life experiences. I hope these will be wonderful moments for you.
+				I am currently a software engineer, although I graduated with a degree in agricultural
+				engineering. I'm researching and working in the fields of crypto, Web3, and blockchain. I
+				enjoy solo traveling to explore new things. Here, you can find my articles about technology
+				as well as my personal life experiences. I hope these will be wonderful moments for you.
 			</p>
 		</Section>
 		{
@@ -129,7 +157,10 @@ const allPostsByDate = sortMDByDate(allPosts).slice(0, MAX_POSTS)
 			>
 				<ul class='ml-4 list-disc font-mono text-[#20C20E]'>
 					<li>
-						My daily work involves creating various Web3 wallets based on blockchain technology. Additionally, I develop contracts on chains like SUI and SOLANA to explore and learn more about the technology. I also integrate AI solutions to tackle more challenging problems.
+						My daily work involves creating various Web3 wallets based on blockchain technology.
+						Additionally, I develop contracts on chains like SUI and SOLANA to explore and learn
+						more about the technology. I also integrate AI solutions to tackle more challenging
+						problems.
 					</li>
 				</ul>
 			</Card>
@@ -143,7 +174,10 @@ const allPostsByDate = sortMDByDate(allPosts).slice(0, MAX_POSTS)
 			>
 				<ul class='ml-4 list-disc font-mono text-[#20C20E]'>
 					<li>
-						Here I had the opportunity to work with NFTs and EVM contracts and integrate various wallets into Dapps. My team and I successfully created an NFT collection that ranked #1 in volume on the world's largest NFT trading platform at that time. It was one of my most incredible experiences.
+						Here I had the opportunity to work with NFTs and EVM contracts and integrate various
+						wallets into Dapps. My team and I successfully created an NFT collection that ranked #1
+						in volume on the world's largest NFT trading platform at that time. It was one of my
+						most incredible experiences.
 					</li>
 				</ul>
 			</Card>
@@ -157,7 +191,9 @@ const allPostsByDate = sortMDByDate(allPosts).slice(0, MAX_POSTS)
 			>
 				<ul class='ml-4 list-disc font-mono text-[#20C20E]'>
 					<li>
-						This was my first experience in my career transition, where I had the opportunity to work with colleagues from Singapore and experience learning and putting in effort during the COVID period. This will always be my most unforgettable first company experience.
+						This was my first experience in my career transition, where I had the opportunity to
+						work with colleagues from Singapore and experience learning and putting in effort during
+						the COVID period. This will always be my most unforgettable first company experience.
 					</li>
 				</ul>
 			</Card>
@@ -174,9 +210,14 @@ const allPostsByDate = sortMDByDate(allPosts).slice(0, MAX_POSTS)
 			>
 				<ul class='ml-4 list-disc font-mono text-[#20C20E]'>
 					<li>
-						Here I mainly learned about crops and livestock, gaining deeper knowledge about different types of plants and pest control methods.
+						Here I mainly learned about crops and livestock, gaining deeper knowledge about
+						different types of plants and pest control methods.
 
-						<li>Courses: This was also where I had the opportunity to experience life in the wonderful country of Israel. This place helped me make the decision to switch my career path to programming.</li>
+						<li>
+							Courses: This was also where I had the opportunity to experience life in the wonderful
+							country of Israel. This place helped me make the decision to switch my career path to
+							programming.
+						</li>
 					</li>
 				</ul>
 			</Card>

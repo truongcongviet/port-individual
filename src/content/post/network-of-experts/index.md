@@ -174,6 +174,7 @@ Substantial resources are dedicated to studying and integrating general-purpose,
 - **Investor Outlook**: Firms like Multicoin Capital are investing, expecting ecosystem teams to capture more MEV value, with a shifting distribution in the future.
 
 ## Further Resources
+
 - MEV an Introduction - Helius blog
 - Arbitrage as a Convex optimization problem - Umberto Natale, Chorus One
 - Ethereum & Solana: MEV & Beyond - Uncommon Core

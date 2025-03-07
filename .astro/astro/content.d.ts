@@ -172,6 +172,13 @@ declare module 'astro:content' {
 				collection: 'post'
 				data: InferEntrySchema<'post'>
 			} & { render(): Render['.md'] }
+			'summary-of-hacked-times/index.md': {
+				id: 'summary-of-hacked-times/index.md'
+				slug: 'summary-of-hacked-times'
+				body: string
+				collection: 'post'
+				data: InferEntrySchema<'post'>
+			} & { render(): Render['.md'] }
 		}
 	}
 

@@ -13,7 +13,12 @@ interface Props {
 }
 
 const {
-	meta: { articleDate = siteConfig.articleDate , description = siteConfig.description, ogImage = siteConfig.ogImage, title }
+	meta: {
+		articleDate = siteConfig.articleDate,
+		description = siteConfig.description,
+		ogImage = siteConfig.ogImage,
+		title
+	}
 } = Astro.props
 console.log({ articleDate, description, ogImage, title })
 ---
