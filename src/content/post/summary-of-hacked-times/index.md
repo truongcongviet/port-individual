@@ -1,5 +1,5 @@
 ---
-title: '🔐 Tổng hợp những lần mình bị hack ví'
+title: '🔐 Tổng hợp 4 lần mình bị hack ví'
 ogImage: 'https://i2.seadn.io/ethereum/0x8a90cab2b38dba80c64b7734e58ee1db38b8992e/2e73bb28d2bc794b8a84fb538cd50e9b.png'
 description: 'Đây là một số trải nghiệm cá nhân tồi của mình trong quá trình làm việc  với blockchain'
 publishDate: '07 Mar 2025'
@@ -8,11 +8,31 @@ tags: ['hack', 'blockchain', 'web3']
 draft: false
 ---
 
-# 🔐 3 Lần Tôi Bị Hack Ví Như Thế Nào?
+# 🔐 4 Lần Tôi Bị Hack Ví Như Thế Nào?
 
 Đây là một blog không viết về tech, nhưng cũng là trải nghiệm cá nhân mình trong quá trình làm việc cũng như đầu tư trong mảng blockchain. Đây là một số bài học cá nhân mình nhận ra và mọi bài học đều phải trả bằng tiền 😢. Giờ thì đi sâu vào những câu chuyện thôi. Let's go.
 
 ![Header Image](header.jpg)
+
+## Một số keyword để dễ hiểu khi đọc bài viết: 
+- **1.CEX**: Sàn tập trung, trung gian quản lý ví (vd: Binance).
+- **2.DEX**: Sàn phi tập trung, tự quản lý ví (vd: Uniswap).
+- **3.Mnemonic**: Chuỗi từ khôi phục ví (12/24 từ).
+- **4.Onchain**: Hoạt động trực tiếp trên blockchain.
+- **5.Ethereum Explorer**: Công cụ tra cứu giao dịch Ethereum (Etherscan).
+- **6.EVM**: Máy ảo chạy smart contract trên Ethereum.
+- **7.Polygon**: Layer2 của ETH là 1 blockchain nhanh, rẻ, hỗ trợ Ethereum.
+- **8.Wallet**: Ví lưu trữ crypto (Metamask, Ledger).
+- **9.Dapps**: Ứng dụng phi tập trung trên blockchain.
+- **10.Crosschain**: Chuyển tài sản giữa các blockchain.
+- **11.Sign Transaction**: Ký xác nhận giao dịch bằng khóa riêng.
+- **12.Gas**: Phí giao dịch trên blockchain.
+- **13.Airdrop**: Phát token miễn phí.
+- **14.Smart Contract**: Code tự động trên blockchain.
+- **15.Memecoin**: Coin dựa trên meme (Dogecoin).
+- **16.Chain**: Blockchain (Ethereum, Polygon).
+- **17.Swap**: Đổi token (ETH sang USDT).
+- **18.Integrate**: Kết nối với hệ thống (ví với Dapp).
 
 ## 💥 Lần Thứ Nhất: (06-2022) (Token bị hack là MATIC và ETH)
 
@@ -42,7 +62,8 @@ draft: false
 ## 📉 Lần Thứ 3: (10/2024) (Token bị mất là Base ETH)
 
 - 🧩 Riêng lần này mình muốn kể ngắn gọn xíu tại vì nó liên quan tới smart contract(14) (tech). Thì căn bản là thường trên DexScreener (platform tổng hợp các meme token) luôn hiển thị lượng token top volume mỗi ngày. Và thỉnh thoảng mình sẽ dành 1 lượng token bên Base chain để mua bán memecoin(15) trên chain(16) này. Dĩ nhiên lượng giá trị mua meme là không nhiều. Thì trong lúc đó mình thấy 1 số lượng meme coin mới tạo có volume cao. Nên mình đã swap(17) 1 meme coin. Và đùng trong khi đã mất ETH nhưng token mình mua không chuyển về ví. Sau khi kiểm tra trên explorer mình thấy đây là 1 token scam.
-- 🚨 Và phải nói token scam hiện nay có nhơn nhởn trên blockchain, tập trung chủ yếu vào memecoin. Nói sâu process hack lần này thì cơ bản là: Mình đặt token scam đó là A. Token A này mình mua thông qua Uniswap V3 dex. Thì token A đã chuyển vào ví mình, nhưng sau đó 1s nó sẽ tự chuyển vào lại smart contract của token. Kiểu đi chợ đưa tiền mua bó rau, bà bán rau đưa mình chạm vào bó rau lấy mùi cái rồi bả giựt lại á. Bình thường thì mình lấy lại được liền bó rau đó. Nhưng trên blockchain thì không bao giờ nha 😭
+- Hình thức hack này là hack thông qua smart contract. Những bài viết sau này mình sẽ đi sâu hơn phân tích nguyên nhân của vụ hack này hơn.
+- 🚨 Và phải nói token scam hiện nay có nhơn nhởn trên blockchain, tập trung chủ yếu vào memecoin. Nói sâu process hack lần này thì cơ bản là: Mình đặt token scam đó là A. Token A này mình mua thông qua Uniswap V3 dex. Thì token A đã chuyển vào ví mình, nhưng sau đó 1s nó sẽ tự chuyển vào lại smart contract của token. Kiểu đi chợ đưa tiền mua bó rau, mình đưa tiền xong thì bà bán rau đưa mình chạm vào bó rau ngửi lấy mùi 1 cái, rồi bả giựt lại á. Trong đời thường thì mình lấy lại được liền bó rau đó. Nhưng trên blockchain thì không bao giờ nha 😭
 - 🔍 Lần này ví mình không bị hack, mà hack ở đây là mua nhầm token scam. Và đây cũng chỉ là 1 trong những loại token scam trên thị trường thôi. Hiện nay thì có 1 số trang có thể check được tính hợp lệ của token. Nên trước khi swap token nào đó, có thể copy contract để check trước đảm bảo an toàn.
 
 ⚠️ **Bài học rút ra: Trên thị trường DEX thì luôn luôn check trước contract trước khi integrate(17) với contract đó. Thế thôi.**
@@ -64,26 +85,6 @@ Sau 4 lần mất tiền này thì chẳng còn gì để nói hơn nữa. Mình
 Và bạn có thể thấy rằng căn bản của mọi công nghệ đều phụ thuộc vào chính con người. Lần lượt các lần hack nguyên nhân đi từ kém công nghệ => sự bất cẩn. Nói chung là cạn phước lắm mới dùng onchain đó mà (just kidding 😅).
 
 Blog này kết thúc tại đây, hy vọng những bài học của mình sẽ giúp bạn tránh khỏi những tổn thất không đáng có trong blockchain. Hôm nay đi nhậu cái cho đỡ buồn. Vừa viết blog vừa khóc 😢
-
-## Một số keyword: 
-- **1.CEX**: Sàn tập trung, trung gian quản lý ví (Binance).
-- **2.DEX**: Sàn phi tập trung, tự quản lý ví (Uniswap).
-- **3.Mnemonic**: Chuỗi từ khôi phục ví (12/24 từ).
-- **4.Onchain**: Hoạt động trực tiếp trên blockchain.
-- **5.Ethereum Explorer**: Công cụ tra cứu giao dịch Ethereum (Etherscan).
-- **6.EVM**: Máy ảo chạy smart contract trên Ethereum.
-- **7.Polygon**: Layer2 của ETH là 1 blockchain nhanh, rẻ, hỗ trợ Ethereum.
-- **8.Wallet**: Ví lưu trữ crypto (Metamask, Ledger).
-- **9.Dapps**: Ứng dụng phi tập trung trên blockchain.
-- **10.Crosschain**: Chuyển tài sản giữa các blockchain.
-- **11.Sign Transaction**: Ký xác nhận giao dịch bằng khóa riêng.
-- **12.Gas**: Phí giao dịch trên blockchain.
-- **13.Airdrop**: Phát token miễn phí.
-- **14.Smart Contract**: Code tự động trên blockchain.
-- **15.Memecoin**: Coin dựa trên meme (Dogecoin).
-- **16.Chain**: Blockchain (Ethereum, Polygon).
-- **17.Swap**: Đổi token (ETH sang USDT).
-- **18.Integrate**: Kết nối với hệ thống (ví với Dapp).
 
 <style>
 img {
