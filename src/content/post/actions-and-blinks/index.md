@@ -9,7 +9,7 @@ draft: false
 
 ## Introduction
 
-Today, Solana Foundation announced the release of two innovative specifications — Actions & Blinks. This article is oriented towards non-technical participants in the Solana or any other Blockchain ecosystem with a superficial knowledge of how apps work.
+Today, Solana Foundation announced the releases of two innovative specifications — Actions & Blinks. This article is oriented towards non-technical participants in the Solana or any other Blockchain ecosystem with a superficial knowledge of how apps work.
 
 ## Actions
 
