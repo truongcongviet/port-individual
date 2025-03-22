@@ -179,6 +179,13 @@ declare module 'astro:content' {
 				collection: 'post'
 				data: InferEntrySchema<'post'>
 			} & { render(): Render['.md'] }
+			'dex-aggregator/index.md': {
+				id: 'dex-aggregator/index.md'
+				slug: 'dex-aggregator'
+				body: string
+				collection: 'post'
+				data: InferEntrySchema<'post'>
+			} & { render(): Render['.md'] }
 		}
 	}
 
